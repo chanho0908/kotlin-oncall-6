@@ -44,6 +44,5 @@ class ViewModel(
             holidaySchedule = _state.holidaySchedule
         )
         _state = _state.copy(onCall = onCallSchedule)
-        println(_state.resultMessage)
     }
 }
